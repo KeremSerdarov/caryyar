@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+    <style>
+        .splide__pagination {
+            right: unset;
+            margin-left: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="bg-image-between01">
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="d-flex align-items-center    justify-content-between">
+                <a href="#" class="text-decoration-none mt-2   align-items-center fw-bold ms-5 h3 "
+                    style="color: #BBBCC0;">
+                    logo</a>
+                <div class=" mt-2 pe-5 me-5  text-white  ">
+                    <a href="#" class="text-decoration-none text-white ">HOME</a>
+                </div>
+            </div>
+            <div class="  text-center mt-5 pt-5">
+                <div class="bg-white d-inline-block mt-5 px-4 position-absolute" >
+                    HAVE A NICE DAY <br>AND...
+                    
+                </div>
+                
+            </div>
+
+        </div>
+    </div> -->
+
+    <nav class="navbar  fixed-top">
+        <div class="container-fluid ">
+            <div class="justify-content-between align-items-center">
+                <a class="navbar-brand ps-5 pt-2 text-secondary opacity-75 fw-bold " href="#">logo</a>
+            </div>
+
+
+            <button class="navbar-toggler me-4 mt-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <span></span>
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-100 h-100">
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="position-relative">
+                            <img src="img/01.jpeg" class="w-100" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                <div class="bg-white px-3 h4 mb-2">
+                                    <small class="text-uppercase">Have a nice day <br> and...</small>
+                                </div>
+                                <div class="bg-white px-3 h4 py-2 fw-bold">
+                                    Yummy Breakfast :)
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="position-relative">
+                            <img src="img/01.jpeg" class="w-100 mb-4" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                <div class="bg-white px-3 h4 mb-2">
+                                    <small class="text-uppercase">Have a nice day <br> and...</small>
+                                </div>
+                                <div class="bg-white px-3 h4 py-2 fw-bold">
+                                    Yummy Breakfast :)
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="position-relative">
+                            <img src="img/01.jpeg" class="w-100" alt="">
+                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                <div class="bg-white px-3 h4 mb-2">
+                                    <small class="text-uppercase">Have a nice day <br> and...</small>
+                                </div>
+                                <div class="bg-white px-3 h4 py-2 fw-bold">
+                                    Yummy Breakfast :)
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="position-relative">
+
+        
+        <div class="position-absolute top-0 w-100 d-flex justify-content-between align-items-center px-4 py-3">
+            <span class="ps-4 pt-1 fw-bold text-secondary  h4  ">logo</span>
+
+            <nav class="navbar ">
+                <div class="container-fluid">
+                    <a class="text-decoration-none text-white me-4 opacity-75    " href="#">HOME</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Exam</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About US</a>
+                                </li>
+
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div> -->
+
+
+    <!-- <img src="img/01.jpeg" class="img-fluid w-100" alt="">
+
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <div class="bg-white px-3 h4 mb-2">
+            <small class="text-uppercase">Have a nice day <br> and...</small>
+        </div>
+        <div class="bg-white px-3 h4 py-2 fw-bold">
+            Yummy Breakfast :)
+        </div>
+    </div>
+
+    </div> -->
+
+    <!-- =================  ================= -->
+    <div class="container-fluid py-5 px-5">
+
+        <div class="row align-items-start   ">
+
+            <!--  -->
+            <div class="col-md-4 ps-4 me-5 col-12 mb-4 mb-md-0">
+                <h5 class="h2 ">
+                    WEIGHT LOSS LINKED TO<br>
+                    <span class="fw-bold">HEALTHY EATING</span>
+                </h5>
+                <p class="text-muted small mt-3">
+                    Participants who ate the most vegetables and consumed the fewest processed foods
+                    shed the most kilograms. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod! Lorem
+                    ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <a href="#" class="text-decoration-underline small text-dark">read more</a>
+            </div>
+
+            <!--  1 -->
+            <div class="col-md-2 col-12 mb-4 me-5">
+                <i class="bi bi-basket fs-1 mb-2 d-block"></i>
+                <div class="text-secondary h5 mb-1" style="font-family: 'Bebas Neue', cursive;">
+                    OVER 300 <br> FOOD PRODUCTS
+                </div>
+                <div class="text-muted small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                </div>
+            </div>
+
+            <!--  2 -->
+            <div class="col-md-2 col-12 mb-4 me-5">
+                <i class="bi bi-leaf fs-1 mb-2 d-block"></i>
+                <div class="text-secondary h5 mb-1" style="font-family: 'Bebas Neue', cursive;">
+                    ONLY NATURAL <br> PRODUCTS
+                </div>
+                <div class="text-muted small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Hi
+                </div>
+            </div>
+
+            <!--  3 -->
+            <div
+                class="col-md-2 col-12 me-4                                                                                                    ">
+                <i class="bi bi-graph-up fs-1 mb-2 d-block"></i>
+                <div class=" text-secondary h5 mb-1" style="font-family: 'Bebas Neue', cursive;">
+                    SIGNIFICANT <br> WEIGHT LOSS
+                </div>
+                <div class="text-muted small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit..
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- =================  ================= -->
+    <div class="container-fluid my-5">
+        <div class="row g-4 px-5">
+
+            <!-- SOL BLOK -->
+            <div class="col-md-6">
+                <div class="row g-3 align-items-center">
+                    <div class="col-6">
+                        <img src="img/0201.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-6 px-5">
+                        <h5 class=" text-secondary text-uppercase" style="font-family: 'Bebas Neue', cursive;">
+                            Have a Healthy Afternoon <br> Snack
+                        </h5>
+                        <p class="text-muted small mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequuntur non magni
+                            excepturi illo adipisci commodi numquam quasi facilis vitae!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- S -->
+            <div class="col-md-6">
+                <div class="row g-3 align-items-center">
+                    <div class="col-6">
+                        <img src="img/0202.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-6 px-5">
+                        <h5 class="text-secondary text-uppercase" style="font-family: 'Bebas Neue', cursive;">
+                            Include Lots of Fibre in Your Diet
+                        </h5>
+                        <p class="text-muted small mb-0">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora odit quisquam ab porro
+                            quaerat. Aperiam atque asperiores libero quas dolorum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ================= BOTTOM ================= -->
+    <div class="position-relative">
+        <img src="img/03.jpeg" class="img-fluid w-100" alt="">
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x text-center mb-4">
+            <div class="d-flex justify-content-center gap-3 mb-2">
+                <a href="#" class="text-decoration-none text-dark h5"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-decoration-none text-dark h5"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-decoration-none text-dark h5x   "><i class="bi bi-instagram"></i></a>
+            </div>
+            <p class="h1  text-uppercase">
+                Enjoy Morning Time
+            </p>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <div class="bg-dark text-white text-center py-5">
+        <small>
+            Sample text. Click to select the text box.
+            Click again or double <br> click to start editing the text.
+        </small>
+    </div>
+
+    <div class="bg-image-intre">
+        <div class="py-1"></div>
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+
+        AOS.init({
+            once: false,
+        });
+
+
+    </script>
+
+
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/splide.min.js "></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/splide.min.js.map"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide(".splide", {
+                type: "loop",
+                autoplay: 1,
+                arrows: 0,
+                interval: 3e3,
+                pauseOnHover: 0,
+                perMove: 1,
+                perPage: 1,
+                gap: "1.5rem",
+            });
+            splide.mount();
+        });
+    </script>
+</body>
+
+</html>
